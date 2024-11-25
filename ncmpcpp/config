@@ -1,0 +1,28 @@
+# ncmpcpp config by jltk
+# https://wiki.archlinux.org/index.php/ncmpcpp
+# https://www.mankier.com/1/ncmpcpp
+
+mpd_music_dir = "~/music"
+
+# appearal
+browser_display_mode = "classic"
+playlist_display_mode = "columns"
+main_window_color = "white"
+statusbar_visibility = "no"
+titles_visibility = "no"
+header_visibility = "no"
+display_remaining_time = "no"
+playlist_disable_highlight_delay = "1"
+enable_window_title = no
+
+# formatting
+song_columns_list_format = "(45)[white]{a}(40)[white]{tr}(15)[black]{y}"
+now_playing_prefix = "$6→ "
+progressbar_look = "─┃─"
+
+# visualizer
+visualizer_sync_interval = "30"
+visualizer_output_name = "fifo"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_type = "spectrum" #more options: ellipse, wave, wave_filled
+visualizer_look = "∙▒"

@@ -1,0 +1,11 @@
+! rofi config by jltk
+
+rofi.modi: window,run
+rofi.color-normal: #272d36,#ffffff,#272d36,#f5f7f7,#272d36
+rofi.color-urgent:#fdf6e3,#dc322f,#eee8d5,#dc322f,#fdf6e3
+rofi.color-active: #5ed69c,#92dfe8,#eee8d5,#268bd2,#fdf6e3
+rofi.color-window: #dc578c,#3e434a
+rofi.columns: 1
+rofi.width: 50
+rofi.lines: 5
+rofi.disable-history: true

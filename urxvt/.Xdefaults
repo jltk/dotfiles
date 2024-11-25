@@ -1,0 +1,42 @@
+# urxvt config of jltk
+
+# window appearal
+URxvt*scrollBar: false
+URxvt.internalBorder: 8
+
+# clickable links
+URxvt*perl-ext-common: default,matcher
+URxvt*url-launcher: icecat
+URxvt.matcher.button: 1
+
+# disable bold and italic fonts
+URxvt.boldFont:
+URxvt.italicFont:
+URxvt.boldItalicFont:
+
+# set colors for italic, bold and underlined text
+URxvt.colorIT: #ffffff
+URxvt.colorBD: #656c77
+URxvt.colorUL: #69acd3
+
+URxvt*cursorColor: #dc579c
+URxvt*background: #272d36
+URxvt*foreground: #bac3d0
+
+URxvt*color0: #3e434a
+URxvt*color1: #dc578c
+URxvt*color2: #5ed69c
+URxvt*color3: #f8fb9d
+URxvt*color4: #69acd3
+URxvt*color5: #dc8dea
+URxvt*color6: #92dfe8
+URxvt*color7: #e1ebec
+
+URxvt*color8: #565f63
+URxvt*color9: #e4a0bf
+URxvt*color10: #94f1c4
+URxvt*color11: #f6f8c8
+URxvt*color12: #82c6ee
+URxvt*color13: #f3c4fb
+URxvt*color14: #c3eaef
+URxvt*color15: #f5f7f7
